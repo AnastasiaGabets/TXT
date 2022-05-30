@@ -1,1 +1,23 @@
 
+Registration, password, input of more than 20 characters (21)
+
+Pre-conditions: open the website on the page: Регистрация .
+
+Steps:
+
+The Password Confirmation, email, phone, and captcha fields are entered correctly.
+
+In the "Password" field, enter QWerty123456789123456.
+
+Click "Register".
+
+Expected result: The field is highlighted in red. Error, enter the password from 4 to 20 characters, using lowercase and uppercase letters, numbers.
+
+The actual result: 21 characters are accepted as the password. The field is not highlighted in red. There is no notification about the correct filling in of the "Password" field.
+Environment:
+
+OS Windows 10 Pro
+Priority - Medium
+Severity - Major
+Browser Opera Version 80.0.4170.63
+
